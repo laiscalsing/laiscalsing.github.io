@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1" encoding="UTF-8"?>
+
+<!-- Copyright ©2020 Clovis Silveira                                    -->
+<!--  Permission is hereby granted, free of charge, to any person       -->
+<!--  obtaining a copy of this software and associated documentation    -->
+<!--  files (the "Software"), to deal in the Software without           -->
+<!--  restriction, including without limitation the rights to use,      -->
+<!--  copy, modify, merge, publish, distribute, sublicense, and/or sell -->
+<!--  copies of the Software, and to permit persons to whom the         -->
+<!--  Software is furnished to do so, subject to the following          -->
+<!--  conditions:                                                       -->
+<!--  The above copyright notice and this permission notice shall be    -->
+<!--  included in all copies or substantial portions of the Software.   -->
+<!--  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,   -->
+<!--  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES   -->
+<!--  OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND          -->
+<!--  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT       -->
+<!--  HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,      -->
+<!--  WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING      -->
+<!--  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR     -->
+<!--  OTHER DEALINGS IN THE SOFTWARE.                                   -->
+<!--  Complies with the AIML 1.0 Standard                               -->
+<!--  as adopted by the ALICE A.I. Foundation.                          -->
+<!--  Last modified 10-05-2020                                          -->
+<!--  file: Covid-19.xml                                                -->
+
+
+
+
+
+<!-- Várias perguntas e uma respostas
+      Manual Guia de implementação de protocolos de retorno 
+      das atividades presenciais nas escolas de educação básica
+      MINISTÉRIO DA EDUCAÇÃO -->
+
+
+<category>
+      <pattern> O que é html </pattern>
+      <template> Criada pelo britânico Tim Berners-Lee, o acrônimo HTML significa HiperText Markup Language, traduzindo ao português: Linguagem de Marcação de Hipertexto. O HTML é o componente básico da web, ele permite inserir o conteúdo e a estrutura básica de um website. </template>
+</category>
+
+
+<category>
+      <pattern> html </pattern>
+      <template> Criada pelo britânico Tim Berners-Lee, o acrônimo HTML significa HiperText Markup Language, traduzindo ao português: Linguagem de Marcação de Hipertexto. O HTML é o componente básico da web, ele permite inserir o conteúdo e a estrutura básica de um website.
+       </template>
+</category>
+
+
+<category>
+      <pattern> head </pattern>
+      <template> Em HTML, a tag é usada como cabeçalho, ou seja, um conjunto de informações de uma página de um site. 
+       </template>
+</category>
+
+
+<category>
+      <pattern> o que é head </pattern>
+      <template> Em HTML, a tag é usada como cabeçalho, ou seja, um conjunto de informações de uma página de um site. 
+       </template>
+</category>
+
+
+<category>
+      <pattern> O que você sabe </pattern>
+      <template> Eu sei sobre: <br/>
+            O que é html <br/>
+            html  <br/>
+            head <br/>
+            O que é HEAD <br/>
+       </template>
+</category>
+
+
+<category>
+    <pattern> O que é um agente conversasional? </pattern>
+    <template> Agentes conversacionais podem ser definidos como sistemas projetados para<br>
+receber um parâmetro do usuário e oferecer uma resposta apropriada, de<br>
+forma a simular uma conversa humana (TEDESCO; BARROS, 2016). </template>
+</category>
+
+<category>
+    <pattern> Para que serve um agente conversacional? </pattern>
+    <template> Um agente conversacional é um programa de computador que tenta simular um <br>
+ser humano na conversação com as pessoas. O objetivo é responder as perguntas de<br>
+tal forma que as pessoas tenham a impressão de estar conversando com outra<br>
+pessoa e não com um programa de computador. </template>
+</category>
+
+
+</aiml>
